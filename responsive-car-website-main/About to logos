@@ -1,0 +1,201 @@
+<!-- ==================== ABOUT ==================== -->
+            <section class="about section" id="about">
+                
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                
+            </section>
+
+            <!--==================== FEATURES ====================-->
+            <section class="features section">
+                
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+                
+            </section>
+
+            <!--==================== OFFER ====================-->
+            <section class="offer section">
+                
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                
+            </section> 
+
+
+
+
+
+
+
+
+
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="about__title">About Us</h2>
+                        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida turpis nec felis sagittis, sit amet dapibus justo pellentesque. Donec rhoncus velit nec dapibus interdum.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="popular section" id="popular">
+                <div class="popular__container container grid">
+                    <h2 class="popular__title">Popular Cars</h2>
+                    <!-- Add popular cars here -->
+                </div>
+            </section>
+    
+            <section class="features section" id="features">
+                <div class="features__container container grid">
+                    <h2 class="features__title">Features</h2>
+                    <!-- Add features here -->
+                </div>
+            </section>
+    
+            <section class="featured section" id="featured">
+                <div class="featured__container container grid">
+                    <h2 class="featured__title">Featured Cars</h2>
+                    <!-- Add featured cars here -->
+                </div>
+            </section>
+    
+            <section class="offer section" id="offer">
+                <div class="offer__container container grid">
+                    <h2 class="offer__title">Special Offers</h2>
+                    <!-- Add special offers here -->
+                </div>
+            </section>
+    
+            <section class="logos section" id="logos">
+                <div class="logos__container container grid">
+                    <h2 class="logos__title">Our Partners</h2>
+                    <!-- Add partner logos here -->
+                </div>
+            </section>
+        </main>
+    
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <p class="footer__copyright">© 2024 Car Info. All rights reserved.</p>
+                <!-- Add footer links or other content here -->
+            </div>
+        </footer>
+
+        
+
+
+
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+          /* Styling the header */
+          .header {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+          }
+          
+          /* Styling the container inside the header */
+          .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto; /* Center the container horizontally */
+            max-width: 1200px; /* Limit the maximum width of the container */
+          }
+          
+          /* Styling the logo */
+          .nav__logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px; /* Increase logo font size */
+          }
+          
+          .nav__logo i {
+            margin-right: 5px;
+          }
+          
+          /* Styling the navigation menu */
+          .nav__menu {
+            display: flex;
+            align-items: center;
+          }
+          
+          /* Styling the list items */
+          .nav__list {
+            display: flex;
+            list-style: none;
+          }
+          
+          .nav__item {
+            margin-right: 30px; /* Increase margin between items */
+            font-size: 20px; /* Increase font size of items */
+          }
+          
+          /* Styling the links */
+          .nav__link {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+          }
+          
+          .nav__link:hover {
+            color: #f1c40f; /* Change to desired hover color */
+          }
+          
+          /* Styling the close button */
+          .nav__close {
+            display: none; /* Hidden by default */
+            font-size: 24px;
+          }
+          
+          /* Styling the toggle button */
+          .nav__toggle{
+            font-size: 1.25rem;
+            cursor: pointer;
+          }
+          
+          /* Media query for responsive design */
+          @media screen and (max-width: 768px) {
+            .nav__menu {
+              display: none; /* Hide the menu by default on small screens */
+              flex-direction: column;
+              position: absolute;
+              top: 100%;
+              left: 0;
+              width: 100%;
+              background-color: #333;
+              padding: 20px 0;
+              text-align: center;
+            }
+          
+            .nav__menu.active {
+              display: flex; /* Show the menu when active */
+            }
+          
+          
+            .nav__close {
+              display: block; /* Show the close button */
+              cursor: pointer;
+              margin-top: 10px; /* Adjust margin top */
+            }
+          } 
+          
